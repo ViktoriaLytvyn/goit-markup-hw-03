@@ -177,6 +177,9 @@ body {
 }*/
 
 /* ===============section О компании/ герой */
+.container-hero {
+    height: 600px;
+}
 .hero-title {
     color: var(--primary-bg-color);
    /* Font-family: Roboto;*/
@@ -186,7 +189,7 @@ body {
     text-align: center;
     background-color: #2F303A;
     padding-top: 200px;
-    padding-bottom:30px ; 
+    padding-bottom:30px ;
 }
 
 .hero-title .container {
