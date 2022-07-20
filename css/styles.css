@@ -330,9 +330,11 @@ body {
     background-color: var(--primary-bg-color);
     /*border-color: transparent;*/ 
 }
-.button-secondary.button {
+
+
+/* .button-secondary.button {
     margin-right: 8px;
-}
+} */
 
 
 .button:hover {
@@ -376,6 +378,10 @@ body {
     padding-bottom: 94px;
 }
 
+.list-botton:not(:last-child) {
+            margin-right: 8px;
+        }
+
 .project-name {
     color: var(--title-text-color);
    /* font-family: inherit;*/
@@ -406,7 +412,7 @@ body {
 
 .portfolio-card {
     flex-basis: calc((100% - 60px) / 3);
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .portfolio-box {
